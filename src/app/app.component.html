@@ -1,0 +1,133 @@
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12">
+    <div class="w3-bar w3-blue w3-card">
+      <img src="src/app/images/mainlogo.jpg" alt="logo" style="height:39px;">
+      <div class="w3-right w3-hide-small">
+        <a class="w3-bar-item w3-button">A<sup>+</sup></a>
+        <a class="w3-bar-item w3-button">A</a>
+        <a class="w3-bar-item w3-button">A<sup>-</sup></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12">
+    <div class="w3-bar w3-blue w3-card" id="myNavbar" style="padding-top: 40px;">
+      <div class="w3-right w3-hide-small">
+        <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+        <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i>&nbsp;&nbsp;ADMIN</a>
+        <a href="#events" class="w3-bar-item w3-button"><i class="fa fa-calendar"></i>&nbsp;&nbsp;EVENTS</a>
+        <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>&nbsp;&nbsp;CONTACT</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+
+  <div class="col-lg-6 col-md-6 col-sm-6 " style="padding: 0px">
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="src/app/images/water-5.jpg" alt="logo" width="1100" height="500">
+          <div class="carousel-caption">
+            <!-- <h3>Los Angeles</h3>
+                                      <p>We had such a great time</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="src/app/images/water-3.jpg" alt="logo" width="1100" height="500">
+          <div class="carousel-caption"></div>
+        </div>
+        <div class="carousel-item">
+          <img src="src/app/images/water-6.jpg" alt="logo" width="1100" height="500">
+          <div class="carousel-caption"></div>
+        </div>
+        <div class="carousel-item">
+          <img src="src/app/images/water-2.jpg" alt="logo" width="1100" height="500">
+          <div class="carousel-caption"></div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 " style="background: rgb(35, 134, 228);">
+    <div id="main">
+      <p style="color: white;
+                    font-family: serif;
+                    font-size: 18px;
+                    padding: 20px;">Water conservation includes all the policies, strategies and activities to
+        sustainably manage the natural resource of fresh water, to protect the hydrosphere, and to meet the current and
+        future human demand. Population, household size, and growth and affluence all affect how much water is used.</p>
+      <img src="src/app/images/volunteer-final.png" alt="logo" style="padding-left: 19%;"><br>
+      <button class="button"><span>Enroll</span></button>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT US</h3>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter" style="margin-left: 13%">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Profile</p>
+      <p>The Board was constituted on 1.11.1989 under the provisions of Hyderabad Metropolitan Water Supply and Sewerage
+        Act 1989 (Act No . 15 of 1989 ), with the following Functions & Responsibilities in the Hyderabad Metropolitan
+        Area.
+
+        The Supply of potable water including planning, design, construction, maintenance, operation & management of
+        water supply system.
+
+        Sewerage, Sewerage Disposal and sewerage treatment works including planning, design, construction, maintenance,
+        operation & management of all sewerage and sewerage treatment works.</p>
+    </div>
+
+    <div class="w3-third w3-section" style="margin-left: 18%">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-10">Board</li>
+        <li class="w3-padding-16"><b>Chairman</b> &nbsp;&nbsp;Board Hon'ble Chief Minister of Telangana</li>
+        <li class="w3-padding-16"><b>Vice Chairman</b> &nbsp; &nbsp;Hon'ble Minister for Municipal Administration &
+          Urban development </li>
+        <li class="w3-padding-16"><b>Ex–Officio Director</b> &nbsp; &nbsp; Chairman T.S Pollution Control Board</li>
+        <li class="w3-padding-16"><b>Director</b> &nbsp; &nbsp;Director (Finance), HMWSSB</li>
+        <li class="w3-padding-16"><b> Managing Director</b> &nbsp; &nbsp;Managing Director, HMWSSB </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>HYDERABAD METROPOLITAN
+      WATER SUPPLY AND SEWERAGE BOARD
+      Administrative Office Building
+      Khairatabad, Hyderabad – 4, Telangana State</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> 040- 23433933</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mdhmwssb@hyderabadwater.gov.in</p>
+  </div>
+</div>
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="events">
+  <h3>EVENTS</h3>
+  <p class="w3-large">Events Coming Up.</p>
+</div>
+<div class="w3-center w3-black" style="padding-bottom: 7px;">
+  <div class="w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="" class="w3-hover-text-green">GHMC</a></p>
+</div>
